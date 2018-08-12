@@ -18,7 +18,7 @@ function sayHiToGrandma(string2){
   }
   else if 
   (string2===string2.toUpperCase()){
-  console.log(string2+' Oom Lower'))
+  console.log(string2+' Oom Upper'))
   console.log(string2.toUpperCase())
   return 'YES INDEED!'
   }
