@@ -11,12 +11,13 @@ function logWhisper(string){
   console.log(string.toLowerCase())
 }
 function sayHiToGrandma(string2){
+  if (string2.toUpperCase()===string2)
+  console.log('Mis-match lowe and upper')
+  
   if (string2===string2.toLowerCase()){
   console.log(string2+' Oom Lower')
   console.log(string2.toLowerCase())
   console.log(string2.toUpperCase())
-  if (string2.toUpperCase()===string2)
-  console.log('Mis-match')
   console.log(string2+' Oom Lower')
   return 'I can\'t hear you!'
   }
