@@ -11,8 +11,8 @@ function logWhisper(string){
   console.log(string.toLowerCase())
 }
 function sayHiToGrandma(string2){
-  if (string2.toUpperCase()===string2)
-  console.log('Mis-match lowe and upper')
+  if (string2==='I love you, Grandma.')
+  return 'I love you, too.' 
   
   if (string2===string2.toLowerCase()){
   console.log(string2+' Oom Lower')
